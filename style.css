@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    width: 100%;
+    height: 100px;
+    font-family: Verdana;
+    color: #fff;
+    background: linear-gradient(to right, #0D47A1,#3D5AFE,#2196F3);
+    justify-content:center;
+    align-items:flex-end;
+}
+
+header h4 {
+    width: 100%;
+    height: 100px;
+    font-family: Verdana;
+    color: #fff;
+    background: linear-gradient(to right, #0D47A1,#3D5AFE,#2196F3);
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.flex {
+    display: flex;
+}
+
+figure > div {
+    width: 100%;
+    height: 5px;
+    color: #2196F3;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.icon_image {
+    font-size: 64px;
+    background-color:#fff;
+    border-radius: 50px;
+    padding: 15px;
+    
+}
+
+main form {
+    width: 35%;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 420px;
+    padding: 20px 60px 20px 60px;
+    border: 2px solid #000;
+    justify-content:space-between;
+    align-items:stretch;
+    flex-direction:column;
+    font-family: Verdana;
+
+}
+
+#Cep  #Rua  #Bairro  #Cidade  #Estado {
+    width: 100%;
+    height: 30px;
+}
+
+#Buscar {
+    width: 100%;
+    height: 30px;
+    background-color: #2196F3;
+    font-family: Verdana;
+    
+}
+
+
+
